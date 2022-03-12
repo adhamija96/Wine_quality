@@ -1,0 +1,15 @@
+conda env list
+
+#create our own environment
+-conda create -n project_wine python==3.7
+
+#switching to a particulat environment
+conda activate project_wine
+
+pip install numpy pandas sklearn seaborn matplotlib statsmodels
+
+#to save all the packages 
+-pip freeze > requirements.txt
+
+#to install allthe packages from text file
+pip install -r requirements.txt
