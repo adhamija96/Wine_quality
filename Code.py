@@ -171,7 +171,7 @@ rf.fit(X_train, y_train)
 rf.fit(X_train,y_train)
 y_pred_rf = rf.predict(X_test)
 rf_acc= (accuracy_score(y_test,y_pred_rf))
-print(f'the accuracy is {rf_acc}')
+print(f'the accuracy for random forest is {rf_acc}')
 
 #constructing confusion matrix
 def create_conf_mat(y_test, y_pred_rf):
